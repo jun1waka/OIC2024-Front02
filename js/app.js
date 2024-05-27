@@ -1,6 +1,6 @@
 console.log("処理A");
 
-fetch("./data.json")
+fetch("https://www.yahoo.co.jp")
 .then(response =>{
 	console.log(response.url);
 	console.log(response.status);
