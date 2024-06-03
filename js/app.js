@@ -36,3 +36,7 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 $('h1').html('jQueryで書き換え');
+$('h1').css({
+	fintsize : '16pt',
+	'backgroud-color' : 'red'
+});
