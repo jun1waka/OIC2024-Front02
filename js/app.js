@@ -34,3 +34,5 @@ window.addEventListener('DOMContentLoaded', () => {
     })
     .catch(error => console.log(error));
 });
+
+$('h1').html('jQueryで書き換え');
