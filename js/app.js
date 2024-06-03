@@ -1,3 +1,4 @@
+window.addEventListener('DOMContentLoaded', () => {
   const table = document.getElementById('weather-table');
 
   fetch('https://rimgate.net/kisyou.php')
@@ -32,3 +33,4 @@
       table.appendChild(tbody);
     })
     .catch(error => console.log(error));
+});
